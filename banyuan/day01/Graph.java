@@ -1,4 +1,4 @@
-package day01;
+package banyuan.day01;
 
 /**
 在控制台上输出以下的图形

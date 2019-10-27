@@ -1,4 +1,4 @@
-package day01;
+package banyuan.day01;
 /**
  * 设计一个程序输出菱形
  */

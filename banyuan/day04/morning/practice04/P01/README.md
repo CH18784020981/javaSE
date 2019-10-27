@@ -1,0 +1,661 @@
+1．下列有关类、对象和实例的叙述，正确的是哪一项？
+
+    A．类就是对象，对象就是类，实例是对象的另一个名称，三者没有差别
+
+    B．对象是类的抽象，类是对象的具体化，实例是对象的另一个名称
+
+    C．类是对象的抽象，对象是类的具体化，实例是类的另一个名称
+
+    D．类是对象的抽象，对象是类的具体化，实例是对象的另一个名称
+
+    
+
+2．下列类Account的构造方法中，声明正确的是？
+
+    A．  Account (String name){)
+
+    B．  Account (String  name)
+
+    C．Account (name)()
+
+    D．  NewAccount (String name){)
+
+    
+
+3．类Account中字段声明正确的是哪项？
+
+    A．  class  Account f
+
+    name;
+
+    amount;
+
+    )
+
+    B．  class  Account{
+
+    String name=l.0；
+
+    double amount="Mike";
+
+    )
+
+    C．  class  Accountf
+
+    String name;
+
+    double amount;
+
+    )
+
+    D．  class  Account{
+
+    String   name= "Mike,,, double   amount=1000.0;
+
+    )
+
+    
+
+4．类Account中方法声明正确的是哪一项？
+
+    A．  class  Account f
+
+    deposit()；
+
+    )
+
+    B．  class  Accountf
+
+    void deposit()；
+
+    }
+
+ 
+
+    C．  class  Accountf
+
+    void deposit(){)
+
+    )
+
+    D. class Accountf
+
+    void  deposit{)
+
+    )
+
+    5．下列有关类声明的代码片段，哪一项是正确的？
+
+    A. package school;
+
+    import  java. sql.*；
+
+    class Student {
+
+    }
+
+    B．import java．sql.*；
+
+    package school;
+
+    class  Student f
+
+    )
+
+    C． package school;
+
+    class Student{
+
+    }
+
+    import  java. sql.*j
+
+    D. package school;
+
+    import java. sql.*；
+
+    private String name;
+
+    class Student {
+
+    }
+
+    
+
+6．有关new关键字的描述正确的是哪项？
+
+    A.创建对象实例的时候可以不使用new关键字
+
+    B．new所创建的对象不占用内存空间
+
+    C．new会调用类的构造器来创建对象
+
+    D．new所创建的对象一定存在引用变量
+
+    
+
+7．下列哪些是方法public  int  add (int a)的重载方法？（选三项）
+
+    A.  public  int  add (long a);
+
+    B.  public  void  add (int a)j
+
+    C.  public void add (long a);
+
+    D.  public  int  add (float a);
+
+ 
+
+    8．我们定义一个Account类来描述银行账户，银行账户有账户名、金额等属性
+
+    特征，同时有存款、取款等行为特征，下述代码适合描述的是哪项？
+
+    A．class  Accountf
+
+    String name;／／账户
+
+    String amount;  ／／金额
+
+    Account (String name)(    )
+
+    void deposit (double mount){  ／／存款
+
+    )
+
+    void withdraw (double mount){  ／／取款
+
+    }
+
+    )
+
+    B．class  Accountf
+
+    String name;／／账户
+
+    doujole amount;  ／／金额
+
+    Account (double amount){    )
+
+    void deposit (double mount){  ／／存款
+
+    )
+
+    void withdraw (double mount){  ／／取款
+
+    )
+
+    )
+
+    C．class  Accountf
+
+    String name;／／账户
+
+    double amount;  ／／金额
+
+    Account (String name){    )
+
+    void deposit (double mount){／／存款
+
+    )
+
+    void withdraw (double mount){  ／／取款
+
+    )
+
+    )
+
+    D．class Accountf
+
+    String name;／／账户
+
+    double amount;／／金额
+
+    Account (String name){    )
+
+    void deposit(){／／存款
+
+    )
+
+    void withdraw(){／／取款
+
+    )
+
+    )
+
+ 
+
+    9．现有：
+
+    1．  class Banana2  f
+
+    2．    static int X=2；
+
+    3.'public static void main (String  []  args)  {
+
+    4．    int X=2;
+
+    5.Banana2 b=new Banana2()；
+
+    6．    b．go(x)；
+
+    7．    }
+
+    8．    static  {x+=x;  )
+
+    9．    void go (int x)  {
+
+    10．    ++x;
+
+    11．    System. out.println (x);
+
+    12．    }
+
+    13．  }
+
+    结果为：
+
+    A．7
+
+    B.  5
+
+    C.  3
+
+    D.  2
+
+    
+
+10．现有：
+
+    1．  class TestFoo f
+
+    2．    int x;
+
+    3．    String y；
+
+    4.int  getX()  {  return  x;  }
+
+    5.String getY()  {return y;  }
+
+    6．    void setX (int  x)  {
+
+    7．    int Z=7：
+
+    8．    this.x=x;
+
+    9．    }
+
+    10.  }
+
+    可以添加多少个修饰符来封装此类？
+
+    A.5
+
+    B.  4
+
+    C.  3
+
+    D.  2   //public final或者 publilc abstract
+
+ 
+
+    11．定义枚举如下：
+
+    public  enum  Direction{
+
+    EAST,SOUTH,WEST,NORTH
+
+    )
+
+    F列正确使用该枚举类型的语句是哪项？
+
+    A. Direction Direction=EAST;
+
+    B. Direction direction=Direction.WEST;
+
+    C. int a- Direction.NORTH;
+
+    n Direction direction=2；
+
+    
+
+12．定义类：
+
+    package utils;
+
+    public class Rep{
+
+    public static String twice (String s){return s+s ；)
+
+    }
+
+    再定义另一个类Demo:
+
+    l.//insert code here
+
+    2.public class Demo{
+
+    3.   public static void main (String[]  args){
+
+    4.System. out .println( twice( "Hello"));
+
+    5．    }
+
+    6．}
+
+    在第一行插入哪项代码，可以使程序正常编译和执行？
+
+    A．import utils.*;
+
+    B. import utils.Rep.*;
+
+    C. import static utils.Rep.twice;
+
+    D. static import utils.Rep.twice;
+
+    
+
+13．现有：
+
+    public  class  TestDemo{
+
+    private int X-2；
+
+    static int y=3；
+
+    public  void method(){
+
+    final int i=100;
+
+    int j  =10;
+
+    class Cinner {
+
+    public void mymethod(){
+
+    //Here
+
+    }
+
+    }
+
+    }
+
+    }
+
+ 
+
+在Here处可以访问的变量是哪些？（选三项）
+
+A．X
+
+ B.  y
+
+ C.  j
+
+ D．  i
+
+ 
+
+14．现有如F包结构：
+
+    com
+
+    |一一X
+
+    |    |一一Alpha.class
+
+    |    |
+
+    |    |一一y
+
+    I         |一一Beta.class
+
+    |
+
+    |l-- Gamma.class
+
+  和类：
+
+    class Test  {  Alpha a；  Beta b; Gamma c;  }
+
+  哪三个必须加入到类Test中，以使其通过编译？（选三项）
+
+  A. package y；
+
+  B. package com;
+
+  C. import com.x.y.*;
+
+  D. import com.x.*;
+
+  
+
+15．现有2个文件：
+
+    1．package x;
+
+    2. public class X{
+
+    3.public static void doX()  {System.out.print("doX");}
+
+    4.  }
+
+  和：
+
+    1．  class Find{
+
+    2.public static void main(String  []  args)  {
+
+    3．    //insert code here
+
+    4．    }
+
+    5.  }
+
+    哪两行分别插入到类Find的第3行将编译并产生输出“doX”？（选两项）
+
+    A．doX()；
+
+    B． X．doX()；
+
+    C．x．X．doX()；
+
+    D. x.X myX=new x.X();myX.doX();
+1．下列关于继承优点的叙述正确的是哪几项？（选三项）
+
+    A．可以创建更为特殊的类型
+
+    B．消除重复代码
+
+    C．执行效率高
+
+    D．便于维护
+
+    
+
+2．在子类中调用父类中被覆盖的方法时需要使用哪项关键字？
+
+    A．this
+
+    B．super
+
+    C．new
+
+    D．以上都不是
+
+    
+
+3．现有
+
+    public class Parentt
+
+    public void change (int x){)
+
+    )
+
+    public class Child extends Parent{
+
+    ／／覆盖父类change方法
+
+    }
+
+    下列哪个声明是正确的覆盖了父类的change方法？
+
+    A.  protected void change (int x){}
+
+    B.  public void change(int x,  int y){}
+
+    C.  public void change (int x){}
+
+    D.  public void change (String s){}
+
+7．程序：
+
+    public class Pet{
+
+    public void speak(){
+
+    System.out.print（"pet"）；
+
+    }
+
+    }
+
+    public class Cat extends Pet{
+
+    pulolic void  speak(){
+
+    System.out.print("Cat")；
+
+    }
+
+    }
+
+    public class Dog extends Pet(
+
+    public  void  speak(){
+
+    System.out.print("Dog");
+
+    }
+
+    }
+
+    执行代码
+
+    Pet[]  p=  {new Cat (),new Dog(),nex Pet()};
+
+    for (int i=O;i<p.length;i++)
+
+    p[i] .speak()；
+
+
+    后输出的内容是哪项？
+
+    B. Cat Cat Cat
+
+    C. Cat Dog Dog
+
+    D. Cat Dog Pet
+
+
+9．现有：
+
+    2.  class Cat  {
+
+    3.Cat (int c)  {System.out.print {"cat"+c+" ");  }
+
+    4．    }
+
+    5.  class SubCat extends Cat  {
+
+    6.SubCat (int c){super (5); System.out.print ("cable");}
+
+    7．    SubCat()  {  this (4)；  }
+
+    8.public static void main (String  []  args)  {
+
+    9.SubCat s= new SubCat();
+
+    10.    }
+
+    11.  }
+ 结果为：
+    A. cat5
+    B. cable
+    C. cat5 cable
+    D. cable cat5
+
+
+10.  class Beverage {
+
+      2.     Beverage ()  {  System.out.print ("beverage ");  }
+
+      3.  }
+
+      4.  class Beer extends Beverage {
+
+      5.   public static void main{string [] args) {
+
+      6.        Beer b = new Beer (14) ;
+
+      7.   }
+
+      8.   public int Beer(int x) {
+
+      9.       this () ;
+
+      10.      System.out.print ("beerl") ;
+
+      11.   }
+
+      12.  public Beer() { System.out.print("beer2 "); }
+
+       13. }
+
+    结果是什么?
+
+     A. beerl beverage
+
+     B. beer2 beverage
+
+     C. beverage beer2 beerl
+
+D.编译失败
+E.
+
+15．现有：
+
+    1．  class HorseRadish  {
+
+    2．    ／／insert code here
+
+    3.protected HorseRadish (int x)    {
+
+4.System.out.println ("bok choy");
+
+    5．    }
+
+    6．    }
+
+    7. class Wasabi extends HorseRadish  {
+
+    8.public static void main (String  []  args)    (
+
+    9.Wasabi w=new Wasabi();
+
+    10，    }
+
+    11.  }
+
+    分别插入到第2行，哪两项允许代码编译并产生”bok choy”输出结果？（选
+
+    两项）
+
+    A. protected HorseRadish()  {this (42)；}
+
+    B.  protected HorseRadish()  {}
+
+    C.  ／／just a comment
+
+    D.  protected  HorseRadish()  {  new HorseRadish (42);}

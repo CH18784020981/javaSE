@@ -1,4 +1,4 @@
-package day01;
+package banyuan.day01;
 
 import java.util.Scanner;
 
@@ -19,12 +19,12 @@ public class Password {
         int i = 0;
         int j = 0;
         do {
-            System.out.println("请输入名字");
+            System.out.println("请输入名字:");
             String inputName = in.next();
 
             if (inputName.equals(name)) {
                 do {
-                    System.out.println("请输入密码");
+                    System.out.println("请输入密码:");
                     String inputPassword = in.next();
                     if (password.equals(inputPassword)) {
                         System.out.println("欢迎进入！！！");
