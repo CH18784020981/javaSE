@@ -1,0 +1,5 @@
+创建一个Rectangle类。
+该类拥有属性length和width，
+每个属性的默认值均为1。该类拥有方法perimeter和area，
+分别用于计算矩形的周长和面积。
+该类还有设置和读取属性length和width的方法。并测试Rectangle类的使用。 
