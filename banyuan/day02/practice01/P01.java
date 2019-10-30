@@ -1,8 +1,9 @@
 package banyuan.day02.practice01;
 
 import java.util.Scanner;
-/*
+/**
 1.手动输入任意三个数，求三个数的和，差
+ * @author 陈浩
  */
 public class P01 {
     public static double sum(double a, double b, double c) {

@@ -2,8 +2,10 @@ package banyuan.day02.practice03;
 
 import java.util.Scanner;
 
-/*
-找出能被5或6整除，但不能被两者同时整除的数
+/**
+ * @author newpc
+ * <p>
+ * 找出能被5或6整除，但不能被两者同时整除的数
  */
 public class P04 {
     public static void main(String[] args) {

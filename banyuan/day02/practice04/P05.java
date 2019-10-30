@@ -1,7 +1,9 @@
 package banyuan.day02.practice04;
 
-/*
-输入10个整数存入数组，然后复制到b数组中输出
+/**
+ * 输入10个整数存入数组，然后复制到b数组中输出
+ *
+ * @author newpc
  */
 public class P05 {
     public static void main(String[] args) {

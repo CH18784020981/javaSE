@@ -2,6 +2,9 @@ package banyuan.day02.practice02;
 
 import java.util.Scanner;
 
+/**
+ * @author 陈浩
+ */
 public class P01 {
     public static void main(String[] args) {
         System.out.println("请输入数字：");

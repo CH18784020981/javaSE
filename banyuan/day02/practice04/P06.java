@@ -2,8 +2,10 @@ package banyuan.day02.practice04;
 
 import java.util.Scanner;
 
-/*
-声明一个int型的数组，循环接收8个学生的成绩，计算这8个学生的总分及平均分、最高分和最低分
+/**
+ * @author newpc
+ * <p>
+ * 声明一个int型的数组，循环接收8个学生的成绩，计算这8个学生的总分及平均分、最高分和最低分
  */
 public class P06 {
     public static void main(String[] args) {

@@ -9,6 +9,7 @@ import java.util.Scanner;
 	如果名字一样那么就继续进行下一步  密码的判断,如果密码不一样
 	给出提示：您输入的密码不一致,请重新输入。
 	如果三次密码都不一样的话那么整个程序就退出不再执行
+ * @author 陈浩
  */
 public class Password {
 

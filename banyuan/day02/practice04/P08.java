@@ -1,7 +1,9 @@
 package banyuan.day02.practice04;
 
-/*
-在一个数组中找出最大和最小值，并输出它们的位置
+/**
+ * @author newpc
+ * <p>
+ * 在一个数组中找出最大和最小值，并输出它们的位置
  */
 public class P08 {
     public static void main(String[] args) {

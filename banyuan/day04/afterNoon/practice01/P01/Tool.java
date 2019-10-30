@@ -2,7 +2,10 @@ package banyuan.day04.afterNoon.practice01.P01;
 
 import java.util.Scanner;
 
-public class tool {
+/**
+ * @author newpc
+ */
+public class Tool {
 
     public static void main(String[] args) {
         Student[] stu = new Student[6];
@@ -33,12 +36,12 @@ public class tool {
 
         int score = 0;
 
-        int b = -1;
+        int b =29;
         int a;
         for (int i = 0; i < 10; i++) {
 
 
-            a = (int) (Math.random() * 29);
+            a = (int) (Math.random() * b);
             if (b == a) {
                 a = (int) (Math.random() * 29);
                 System.out.println(test[a].toString());

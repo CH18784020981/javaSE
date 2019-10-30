@@ -2,8 +2,9 @@ package banyuan.day02.practice04;
 
 import java.util.Scanner;
 
-/*
-定义一个长度为10的整型数组，循环输入10个整数。 然后将输入一个整数，查找此整数，找到 输出下标，没找到给出提示。
+/**
+ * 定义一个长度为10的整型数组，循环输入10个整数。 然后将输入一个整数，查找此整数，找到 输出下标，没找到给出提示。
+ * @author 陈浩
  */
 public class P07 {
     public static void main(String[] args) {

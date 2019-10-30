@@ -2,8 +2,9 @@ package banyuan.day02.practice03;
 
 import java.util.Scanner;
 
-/*
-请输入一个任意年份,判断是否是闰年
+/**
+ * 请输入一个任意年份,判断是否是闰年
+ * @author newpc
  */
 public class P05 {
     public static void main(String[] args) {

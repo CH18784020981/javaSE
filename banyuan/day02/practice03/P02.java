@@ -2,8 +2,10 @@ package banyuan.day02.practice03;
 
 import java.util.Scanner;
 
-/*
-2.从键盘输入某个十进制整数数，转换成对应的二进制整数并输出。
+/**
+ * @author 陈浩
+ * <p>
+ * 从键盘输入某个十进制整数数，转换成对应的二进制整数并输出。
  */
 public class P02 {
     public static void main(String[] args) {

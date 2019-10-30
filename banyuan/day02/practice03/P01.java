@@ -2,8 +2,10 @@ package banyuan.day02.practice03;
 
 import java.util.Scanner;
 
-/*
-1.从键盘输入一个班5个学生的分数，求和并输出
+/**
+ * @author 陈浩
+ * <p>
+ * 1.从键盘输入一个班5个学生的分数，求和并输出
  */
 public class P01 {
 

@@ -2,8 +2,10 @@ package banyuan.day02.practice04;
 
 import java.util.Scanner;
 
-/*
-2.输入三个班，每班10个学生的成绩，求每个班的总分和平均分
+/**
+ * 2.输入三个班，每班10个学生的成绩，求每个班的总分和平均分
+ *
+ * @author newpc
  */
 public class P02 {
     public static void main(String[] args) {

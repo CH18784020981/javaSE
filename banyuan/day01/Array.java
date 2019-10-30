@@ -9,6 +9,7 @@ int oldArr[]={1,3,4,5,0,0,6,6,0,5,4,7,6,7,0,5} ;
 	2、	从旧的数组之中，取出内容，并将其赋给新开辟的数组；
 	4.把整型  字符型  和  字符串型的数组 里面的元素 给我倒序
 	5. 数组获取最值(获取数组中的最大值最小值)
+ * @author 陈浩
 
  */
 public class Array {
@@ -32,14 +33,14 @@ public class Array {
             System.out.print(newArr[i]);
         }
         System.out.println();
-        int[] Int = {1, 2, 4, 5, 7, 6};
-        char[] Char = {'a', 'b', 'c', 'd', 'e'};
-        for (int i = 0; i < Int.length; i++) {
-            System.out.print(Int[Int.length - i - 1]);
+        int[] ints = {1, 2, 4, 5, 7, 6};
+        char[] chars = {'a', 'b', 'c', 'd', 'e'};
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(ints[ints.length - i - 1]);
         }
         System.out.println();
-        for (int i = 0; i < Char.length; i++) {
-            System.out.print(Char[Char.length - i - 1]);
+        for (int i = 0; i < chars.length; i++) {
+            System.out.print(chars[chars.length - i - 1]);
         }
         System.out.println();
         int sum = newArr[0];
