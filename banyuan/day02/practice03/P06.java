@@ -13,7 +13,7 @@ public class P06 {
         int count = 0;
         int no = type.nextInt();
         for (int i = 0; i < 10; i++) {
-            if (no == 30 * Math.random()) {
+            if (no == (int) (Math.random() * 29)) {
                 count++;
             }
         }
