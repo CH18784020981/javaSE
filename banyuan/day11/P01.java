@@ -24,7 +24,8 @@ public class P01 {
         if (!file.exists()) {
             file.createNewFile();
         }
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file,true));
+        //这里不用追加
         for (int i = 0; i < list.size(); i++) {
             oos.writeObject(list.get(i));
 
